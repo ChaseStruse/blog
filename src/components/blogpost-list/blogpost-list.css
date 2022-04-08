@@ -1,0 +1,6 @@
+.blogpost-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 100px;
+    grid-gap: 35px;
+}

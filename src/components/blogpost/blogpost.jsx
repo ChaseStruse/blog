@@ -1,10 +1,11 @@
 import React from 'react';
+import './blogpost.css';
 
-export function BlogPost() {
+export const BlogPost = (props) => {
   return (
-    <div className="Post">
-        <h3>Test Post</h3>
-        <p>Test post content</p>
+    <div className="post-container">
+        <h3>{props.title}</h3>
+        <p>{props.body}</p>
     </div>
   );
 }
